@@ -1,25 +1,17 @@
-// Initialize Firebase
-// Make sure to match the configuration to the script version number in the HTML
-// (Ex. 3.0 != 3.7.0)
-
-
-// Assign the reference to the database to a variable named 'database'
-//var database = ...
-
 $(document).ready(function() {
 
 
-    var config = {
-        apiKey: "AIzaSyAB5zRBKOqOaP0g4HKgR94tVG4B9_dzb7A",
-        authDomain: "proejct-15960.firebaseapp.com",
-        databaseURL: "https://proejct-15960.firebaseio.com",
-        projectId: "proejct-15960",
-        storageBucket: "proejct-15960.appspot.com",
-        messagingSenderId: "957116997644"
+    var firebaseConfig = {
+        apiKey: "AIzaSyCy-8oYXObO2DKmI6LBM84Nv4QiE71Dqm8",
+        authDomain: "train-scheduler-73a83.firebaseapp.com",
+        databaseURL: "https://train-scheduler-73a83.firebaseio.com",
+        projectId: "train-scheduler-73a83",
+        storageBucket: "train-scheduler-73a83.appspot.com",
+        messagingSenderId: "723647348200",
+        appId: "1:723647348200:web:acfeb80bc0def0bef6385d"
       };
-     
-      firebase.initializeApp(config);
-    
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
     
     
       var database = firebase.database();

@@ -5,13 +5,13 @@
   <head>
 
     <meta charset="UTF-8">
-    <title>Get on the Crazy Train</title>
+    <title>Train</title>
 
   <!-- Jquery -->
-    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
 
   <!-- Firebase  -->
-  <script src="https://www.gstatic.com/firebasejs/4.8.0/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-app.js"></script>
 
    <!-- Moment JS  -->
   <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
@@ -22,8 +22,6 @@
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-<!-- Adobe Typekit -->
-    <link rel="stylesheet" href="https://use.typekit.net/fev4asl.css">
 
 
     
@@ -38,8 +36,8 @@
 
       
       <div class="jumbotron">
-        <h1 class="text-center">Ozzy's Favorite Train Scheduler</h1>
-        <h3 class="text-center">Don't miss the crazy train.</h3>
+        <h1 class="text-center">Train Time</h1>
+        <h3 class="text-center">Get on the Crazy Train.</h3>
         
       </div>
 
@@ -54,9 +52,9 @@
               <table class="table"> 
                 <thead>
                   <tr>
-                    <th>Train</th>
-                    <th>Where ya goin</th>
-                    <th>Frequency (mins)</th>
+                    <th>Train Name</th>
+                    <th>Destination</th>
+                    <th>Frequency (min)</th>
                     <th>Next Arrival</th>
                     <th>Minutes Away</th>
                   </tr>
@@ -71,16 +69,16 @@
         <div class="col-lg-12">
           <div class="panel panel-primary">
             <div class="panel-heading">
-              <h3 class="panel-title">Stay on Track. Add Deets</h3>
+              <h3 class="panel-title">Add Info</h3>
             </div>
             <div class="panel-body">
               <form>
                 <div class="form-group">
-                  <label for="train-name">Train</label>
+                  <label for="train-name">Train Name</label>
                   <input class="form-control" id="trainNameId" type="text">
                 </div>
                 <div class="form-group">
-                  <label for="train-destination">Where ya goin</label>
+                  <label for="train-destination">Destination</label>
                   <input class="form-control" id="destId" type="text">
                 </div>
                 <div class="form-group">
